@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Finance-Stripe-Provider-API/Finance-Stripe-Provider-API.csproj" />
+  <Project Path="Finance_Stripe_OneTimePayment_V1/Finance_Stripe_OneTimePayment_V1.csproj" Id="4876a271-25a1-4a33-a520-d78dda5aa3d9" />
+</Solution>

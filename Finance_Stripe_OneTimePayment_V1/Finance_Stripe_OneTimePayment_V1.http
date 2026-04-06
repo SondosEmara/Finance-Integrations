@@ -1,0 +1,6 @@
+@Finance_Stripe_OneTimePayment_V1_HostAddress = http://localhost:5085
+
+GET {{Finance_Stripe_OneTimePayment_V1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
