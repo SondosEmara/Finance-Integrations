@@ -1,0 +1,65 @@
+# ─────────────────────────────────────────
+# STRIPE & SECRETS — Never commit these!
+# ─────────────────────────────────────────
+**/appsettings.json
+**/appsettings.*.json
+!**/appsettings.Example.json
+
+# ─────────────────────────────────────────
+# .NET / C#
+# ─────────────────────────────────────────
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+*.swp
+*.log
+project.lock.json
+project.fragment.lock.json
+artifacts/
+**/Properties/launchSettings.json
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+nuget.config
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# ─────────────────────────────────────────
+# React / Node
+# ─────────────────────────────────────────
+node_modules/
+dist/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Vite
+.vite/
+
+# ─────────────────────────────────────────
+# OS
+# ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ─────────────────────────────────────────
+# IDE
+# ─────────────────────────────────────────
+.vscode/
+*.code-workspace
